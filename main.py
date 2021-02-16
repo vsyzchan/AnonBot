@@ -7,10 +7,10 @@ import os
 bot = telebot.TeleBot(os.environ["Bot_API_Token"])
 
 # This should match what you gave the BotFather as the bot name
-bot_name = "BOT NAME HERE"
+bot_name = "tes"
 
 # Channel ID should be in the format of "@channelName" - can be found in channel description.
-channel_id = "CHANNEL ID HERE"
+channel_id = "@hahaiawh"
 
 
 @bot.message_handler(commands=["start"])
